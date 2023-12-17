@@ -5,8 +5,6 @@ Hybrid Custom Framework to Test the REST APIs
 <<<<<<< HEAD
 ![Screenshot 2023-12-08 at 8 20 27 AM](https://github.com/PramodDutta/Py1xAPIAutomation/assets/1409610/a09647ad-720b-4afb-8d33-b69e4710cee4)
 
-=======
->>>>>>> parent of 3c1cd0e (17DECN)
 
 ### Tech Stack
 1. Python 3.11
@@ -39,5 +37,3 @@ Hybrid Custom Framework to Test the REST APIs
 
 ### To Work with the Excel
 ``pip install openpyxl``
-=======
->>>>>>> parent of 3c1cd0e (17DECN)
