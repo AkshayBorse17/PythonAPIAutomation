@@ -2,9 +2,12 @@
 
 Hybrid Custom Framework to Test the REST APIs
 
+<<<<<<< HEAD
 ![Screenshot 2023-12-08 at 8 20 27 AM](https://github.com/PramodDutta/Py1xAPIAutomation/assets/1409610/a09647ad-720b-4afb-8d33-b69e4710cee4)
 ![Screenshot 2023-12-17 124102](https://github.com/AkshayBorse17/PythonAPIAuto/assets/114767178/89633ed6-1ebb-425d-8206-f69401cec40e)
 
+=======
+>>>>>>> parent of 3c1cd0e (17DECN)
 
 ### Tech Stack
 1. Python 3.11
@@ -25,6 +28,7 @@ Hybrid Custom Framework to Test the REST APIs
 
 ## To Install te Freeze Version
 ``pip install -r requirements.txt``
+<<<<<<< HEAD
 
 
 ## How to run your Testcase Parallel 
@@ -36,3 +40,5 @@ Hybrid Custom Framework to Test the REST APIs
 
 ### To Work with the Excel
 ``pip install openpyxl``
+=======
+>>>>>>> parent of 3c1cd0e (17DECN)
