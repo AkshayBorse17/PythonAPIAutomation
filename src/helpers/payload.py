@@ -1,11 +1,16 @@
 from faker import Faker
+from dotenv import load_dotenv
+import os
 
 faker=Faker()
 
 def create_token_payload():
+    load_dotenv()
+    username=os.getenv("USER")
+    password=os.getenv("PASSWORD")
     payload = {
-        "username": "admin",
-        "password": "password123"
+        "username": username,
+        "password": password
     }
     return payload
 
