@@ -40,12 +40,17 @@ Hybrid Custom Framework to Test the REST APIs
 
 ### To Install faker for random data
 ``pip install faker``
+
     from faker import Faker
     faker=Faker()
     faker.first_name()
 
 ### Install .env package for secured environment
 ``pip install python-dotenv``
+
     from dotenv import load_dotenv
     import os
+
+## To work wit JSON Schema
+``pip install jsonschema``
 
