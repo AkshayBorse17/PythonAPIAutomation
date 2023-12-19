@@ -34,5 +34,18 @@ Hybrid Custom Framework to Test the REST APIs
 ``pytest -n auto tests/integration_test/test_create_booking.py -s -v
 ``
 
-### To Work with the Excel
+### To Work with the Excel- read write
 ``pip install openpyxl``
+
+
+### To Install faker for random data
+``pip install faker``
+    from faker import Faker
+    faker=Faker()
+    faker.first_name()
+
+### Install .env package for secured environment
+``pip install python-dotenv``
+    from dotenv import load_dotenv
+    import os
+
