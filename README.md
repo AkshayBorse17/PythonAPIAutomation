@@ -54,3 +54,5 @@ Hybrid Custom Framework to Test the REST APIs
 ## To work wit JSON Schema
 ``pip install jsonschema``
 
+    from jsonschema import validate
+    from jsonschema.exceptions import ValidationError

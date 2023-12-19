@@ -1,3 +1,4 @@
+from pprint import pprint
 import pytest
 
 from src.helpers.api_integration import *
@@ -33,7 +34,8 @@ class Testbooking():
         response_key_not_none(data)
         response_time(res.elapsed.seconds)
         id=res.json()["bookingid"]
-        print(data)
+        print()
+        pprint(data)
         print(res)
         return id
 
