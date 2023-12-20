@@ -35,7 +35,7 @@ class Testbooking():
         response_time(res.elapsed.seconds)
         id=res.json()["bookingid"]
         print()
-        pprint(data)
+        print(data)
         print(res)
         return id
 
