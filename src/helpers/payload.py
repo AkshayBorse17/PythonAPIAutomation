@@ -5,6 +5,13 @@ import os
 faker=Faker()
 
 def create_token_payload():
+    payload = {
+        "username": "admin",
+        "password": "password123"
+    }
+    return payload
+
+def create_token_payload2():
     load_dotenv()
     username=os.getenv("USER")
     password=os.getenv("PASSWORD")
@@ -13,6 +20,7 @@ def create_token_payload():
         "password": password
     }
     return payload
+
 
 
 def create_booking_payload():
